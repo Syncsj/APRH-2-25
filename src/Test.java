@@ -6,7 +6,7 @@ public class Test {
         k.hundert = 0;
         k.zehner = 2;
         k.einer = 5;
-        k.jahr = "Aktuell haben wir das Jahr:";
+        k.jahr = "Aktuell haben wir das Jahr: ";
 
         System.out.println(k.jahr + k.tausend + k.hundert + k.zehner + k.einer );
 
