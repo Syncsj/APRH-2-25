@@ -1,4 +1,6 @@
-public class K5 {
+package k5.jahr;
+
+public class Jahr {
 int tausend;
 int hundert;
 int zehner;
