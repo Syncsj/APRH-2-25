@@ -2,11 +2,13 @@ package k5.Medium;
 
 public class Radio {
     public static void main(String[] args) {
+        // CD-Objekt mit Konstruktor erstellen
+        CD cd1 = new CD("Leser", 15);
 
-        CD cd1 = new CD();
+        // CD abspielen
+        cd1.abspiel();
 
-        cd1.interpreter = "Leser";
-        cd1.titel = 15;
-        cd1.anzahl();
+        // Titelanzahl ausgeben
+        System.out.println("Titelanzahl: " + cd1.getAnzahl());
     }
 }
